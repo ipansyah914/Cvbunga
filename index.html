@@ -1,0 +1,187 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Bunga Rosmadani</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #e8eef5;
+            padding: 30px;
+        }
+
+        .cv-container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            display: flex;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .sidebar {
+            width: 35%;
+            background: #17365d;
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+
+        .profile h2 {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        .profile p {
+            font-size: 13px;
+            color: #cbd8e8;
+        }
+
+        .sidebar h3 {
+            border-bottom: 2px solid #5dade2;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            margin-top: 25px;
+        }
+
+        .sidebar p,
+        .sidebar li {
+            font-size: 13px;
+            line-height: 1.8;
+        }
+
+        .sidebar ul {
+            padding-left: 18px;
+        }
+
+        .main-content {
+            width: 65%;
+            padding: 35px 30px;
+        }
+
+        .main-content h1 {
+            color: #17365d;
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        .main-content .subtitle {
+            color: #5dade2;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            color: #17365d;
+            border-bottom: 2px solid #5dade2;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .section p,
+        .section li {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .section ul {
+            padding-left: 20px;
+        }
+
+        .education {
+            margin-bottom: 15px;
+        }
+
+        .education h4 {
+            color: #17365d;
+            font-size: 15px;
+        }
+
+        .education p {
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .cv-container {
+                flex-direction: column;
+            }
+
+            .sidebar,
+            .main-content {
+                width: 100%;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .cv-container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="cv-container">
+
+    <!-- BAGIAN KIRI -->
+    <div class="sidebar">
+
+        <div class="profile">
+            <img src="foto.jpg" alt="Foto Profil">
+
+            <h2>Bunga Rosmadani</h2>
+            <p>Administrasi Perkantoran</p>
+        </div>
+
+        <h3>Kontak</h3>
+
+        <p>📞 08xxxxxxxxxx</p>
+        <p>✉️ email@gmail.com</p>
+        <p>📍 arab saudi</p>
+
+        <h3>Keahlian</h3>
+
+        <ul>
+            <li>Microsoft Word</li>
+            <li>Microsoft Excel</li>
+            <li>Microsoft PowerPoint</li>
+            <li>Pengarsipan Dokumen</li>
+            <li>Administrasi Kantor</li>
+            <li>Komunikasi</li>
+        </ul>
